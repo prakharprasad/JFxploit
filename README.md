@@ -110,6 +110,8 @@ List all available post-exploitation actions.
 | f05 | Post-Auth | `server` parameter injection in `jsonApi` speed test handler |
 | f06 | Post-Auth | `website` parameter injection in `jsonApi` web download handler |
 | f07 | Pre-Auth | `Admin_Password` field injection in Mesh API ForcedLogin handler |
+| f09 | Pre-Auth | Raw request body injection in the Mesh API debug logger |
+| f10 | Post-Auth | `enableDisableWPS` field injection in the WPS configuration handler |
 
 When `--exploit auto` is used (the default), exploits are tried in the order above — pre-auth first, then post-auth — and the first successful one is used.
 
