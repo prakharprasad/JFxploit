@@ -34,6 +34,8 @@ class ExploitID(str, Enum):
     F05 = "f05"
     F06 = "f06"
     F07 = "f07"
+    F08 = "f08"
+    F09 = "f09"
     AUTO = "auto"
 
 
